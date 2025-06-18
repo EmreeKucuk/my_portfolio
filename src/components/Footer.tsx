@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           </div>
           
           <p className="text-gray-500 text-sm">
-            © 2024 ML Portfolio. All rights reserved.
+            © 2024 Emre Küçük.
           </p>
           
           <div className="mt-4 text-xs text-gray-600">

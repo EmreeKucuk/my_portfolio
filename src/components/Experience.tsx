@@ -4,42 +4,19 @@ import { Calendar, MapPin, Building, Award } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const experiences = [
+  
     {
-      title: 'Machine Learning Intern',
-      company: 'Tech Innovations Inc.',
-      location: 'San Francisco, CA',
-      period: 'Jun 2024 - Aug 2024',
+      title: 'Information Technology Intern',
+      company: 'Quick Sigorta General Directorate',
+      location: 'Ataşehir, Istanbul',
+      period: 'July 2024 - September 2024',
       description: [
-        'Developed and deployed ML models for predictive analytics, improving accuracy by 25%',
-        'Implemented computer vision algorithms for automated quality control systems',
-        'Collaborated with cross-functional teams to integrate ML solutions into production'
+        'Researched RAID 60, learning about its configuration, data redundancy, and fault tolerance.',
+        'Fixed authorization errors and adjusted database records for access cards. Managed data in Excel.',
+        'Worked on correcting errors of SFS system, debugged database errors.'
       ],
-      technologies: ['Python', 'TensorFlow', 'OpenCV', 'AWS', 'Docker']
+      technologies: ['SQL', 'Git']
     },
-    {
-      title: 'Data Science Intern',
-      company: 'Analytics Solutions Ltd.',
-      location: 'New York, NY',
-      period: 'Jan 2024 - May 2024',
-      description: [
-        'Built ETL pipelines for processing large-scale datasets using Apache Spark',
-        'Created interactive dashboards and visualization tools for business intelligence',
-        'Conducted statistical analysis to identify key business insights and trends'
-      ],
-      technologies: ['Python', 'Pandas', 'Spark', 'Tableau', 'SQL', 'Git']
-    },
-    {
-      title: 'Research Assistant',
-      company: 'University AI Lab',
-      location: 'Campus',
-      period: 'Sep 2023 - Dec 2023',
-      description: [
-        'Assisted in research on deep learning applications in natural language processing',
-        'Implemented and optimized transformer models for text classification tasks',
-        'Co-authored research paper on attention mechanisms in neural networks'
-      ],
-      technologies: ['PyTorch', 'Transformers', 'CUDA', 'Jupyter', 'LaTeX']
-    }
   ];
 
   return (
@@ -56,8 +33,9 @@ const Experience: React.FC = () => {
             Experience
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            My journey through various internships and research positions has provided me with
-            hands-on experience in applying ML techniques to solve real-world problems.
+            My journey through internships and personal projects has equipped me with hands-on experience in a
+            pplying machine learning techniques to real-world challenges — from developing recommendation systems to 
+            building computer vision solutions for accessibility.
           </p>
         </motion.div>
 

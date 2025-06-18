@@ -35,27 +35,26 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com'
+      value: 'emrekucuk2003@gmail.com',
+      href: 'mailto:emrekucuk2003@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+90 (507) 644 96 39',
+      href: 'tel:+905076449639'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Istanbul , TR',
       href: '#'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/EmreeKucuk', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/emrekucuk03/', label: 'LinkedIn' },
   ];
 
   return (

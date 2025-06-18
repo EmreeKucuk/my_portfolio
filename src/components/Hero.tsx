@@ -46,9 +46,9 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            ML Engineer
+            Emre Küçük
             <br />
-            <span className="text-4xl md:text-6xl text-gray-300">& Student</span>
+            <span className="text-4xl md:text-6xl text-gray-300">Software Engineering Student</span>
           </motion.h1>
 
           <motion.p

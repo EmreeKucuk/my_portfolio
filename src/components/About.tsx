@@ -11,9 +11,9 @@ const About: React.FC = () => {
   ];
 
   const achievements = [
-    { icon: BookOpen, title: 'Computer Science Student', description: 'Pursuing degree with focus on AI/ML' },
-    { icon: Trophy, title: 'Multiple Internships', description: 'Hands-on experience in industry projects' },
-    { icon: Brain, title: 'Research Focus', description: 'Active in ML research and publications' },
+    { icon: BookOpen, title: 'Software Engineering Student', description: 'Pursuing developement through AI/ML' },
+    { icon: Trophy, title: 'Impactful Projects', description: 'Completed ML & DL projects with real-world impact' },
+    { icon: Brain, title: 'Research Focus', description: 'Active in ML research' },
   ];
 
   return (
@@ -30,9 +30,9 @@ const About: React.FC = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate Computer Science student specializing in Machine Learning and Deep Learning.
-            Through internships and personal projects, I've developed expertise in creating intelligent
-            solutions that solve real-world problems.
+            I'm a driven Software Engineering student with a strong focus on Machine Learning and Deep Learning. 
+            Through hands-on internships and self-initiated projects, 
+            I've built smart systems that tackle real-life challenges — from recommendation engines to computer vision solutions.
           </p>
         </motion.div>
 
@@ -106,11 +106,10 @@ const About: React.FC = () => {
           viewport={{ once: true }}
         >
           <p className="text-lg text-gray-300 leading-relaxed text-center max-w-4xl mx-auto">
-            My journey in artificial intelligence began during my undergraduate studies, where I discovered
-            the transformative power of machine learning. Through various internships, I've had the opportunity
-            to work on cutting-edge projects involving neural networks, computer vision, and natural language
-            processing. I'm constantly exploring new technologies and methodologies to push the boundaries
-            of what's possible with AI.
+            My journey into artificial intelligence began during my undergraduate studies in Software Engineering, 
+            where I became deeply interested in the potential of machine learning. Through hands-on internships and personal projects, 
+            I’ve worked on practical applications such as recommendation systems, computer vision models for accessibility, 
+            and automation tools. I continuously explore new AI technologies and approaches to create intelligent, meaningful solutions..
           </p>
         </motion.div>
       </div>
