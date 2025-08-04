@@ -7,13 +7,19 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - About Me section
 - Projects with descriptions and links
 - Skills and technologies
+- Working contact form (Netlify Forms)
+- CV download functionality
+- Responsive design with smooth animations
 - Contact information
 
 ## 🛠️ Technologies Used
 
-- HTML, CSS, JavaScript
-- React (if applicable)
+- React with TypeScript
+- Vite (build tool)
 - Tailwind CSS
+- Framer Motion (animations)
+- Lucide React (icons)
+- Netlify Forms (contact form)
 
 ## 📦 Getting Started
 
@@ -27,8 +33,21 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
     ```
 3. Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
+
+## 🌐 Deployment
+
+This project is optimized for Netlify deployment:
+
+1. Build the project: `npm run build`
+2. Deploy the `dist` folder to Netlify
+3. The contact form will automatically work with Netlify Forms
+4. CV download will work from the public folder
+
+## 📧 Contact Form
+
+The contact form uses Netlify Forms and will send emails directly to your configured email address when deployed on Netlify.
 
 ## 📄 License
 

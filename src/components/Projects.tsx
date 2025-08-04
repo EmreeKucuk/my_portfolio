@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Filter, Brain, Eye, MessageSquare, BarChart } from 'lucide-react';
+import { Github, ExternalLink, Filter, Brain, Eye, MessageSquare, BarChart, Calendar } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState('All');
 
-  const filters = ['All', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'NLP'];
+  const filters = ['All', 'Machine Learning', 'Deep Learning', 'Computer Vision', 'NLP', 'Web Development', 'API Development', 'Full Stack'];
 
   const projects = [
     {
@@ -17,6 +17,16 @@ const Projects: React.FC = () => {
       github: 'https://github.com/EmreeKucuk/image-recog-for-blind',
       demo: '',
       icon: Eye
+    },
+    {
+      title: 'Holiday API',
+      description: 'A comprehensive API for managing holiday requests and approvals.',
+      image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['Java', 'Spring Boot', 'React', 'Tailwind CSS', 'Docker'],
+      category: ['Web Development', 'API Development', 'Full Stack', 'NLP'],
+      github: 'https://github.com/EmreeKucuk/holiday-api',
+      demo: '',
+      icon: Calendar
     },
   ];
 

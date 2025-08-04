@@ -22,9 +22,8 @@ const Navigation: React.FC = () => {
   ];
 
   const handleDownloadCV = () => {
-    // This would typically download an actual CV file
     const link = document.createElement('a');
-    link.href = '/cv.pdf'; // You would place your actual CV file in the public folder
+    link.href = '/cv.pdf'; 
     link.download = 'EMRE_KUCUK_CV.pdf';
     link.click();
   };

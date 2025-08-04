@@ -85,23 +85,24 @@ const Hero: React.FC = () => {
               Get In Touch
             </motion.button>
           </motion.div>
-        </motion.div>
 
-        <motion.div
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-        >
-          <motion.button
-            onClick={scrollToNext}
-            className="p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            whileHover={{ scale: 1.1 }}
+          {/* Scroll Down Button */}
+          <motion.div
+            className="mt-16 pt-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1.2 }}
           >
-            <ChevronDown className="w-6 h-6" />
-          </motion.button>
+            <motion.button
+              onClick={scrollToNext}
+              className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-300"
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 2, repeat: Infinity }}
+              whileHover={{ scale: 1.1 }}
+            >
+              <ChevronDown className="w-6 h-6" />
+            </motion.button>
+          </motion.div>
         </motion.div>
       </div>
     </section>

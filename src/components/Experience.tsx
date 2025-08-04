@@ -17,6 +17,19 @@ const Experience: React.FC = () => {
       ],
       technologies: ['SQL', 'Git']
     },
+
+    {
+      title: 'Software Development Intern',
+      company: 'Agito',
+      location: 'Sarıyer, Istanbul',
+      period: 'June 2025 - August 2025',
+      description: [
+        'Developed the Holiday API project using Spring Boot, React, Tailwind, Oracle, and Docker.',
+        'Implemented a natural language understanding layer to process user holiday queries with AI.',
+        'Participated in full-stack development and integration of frontend-backend systems.'
+      ],
+      technologies: ['SQL', 'Git', 'Spring Boot', 'React', 'Tailwind CSS', 'Docker']
+    },
   ];
 
   return (
